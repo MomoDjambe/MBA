@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MBA</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+        <style>
+            body{
+                background-color: darkgray;
+            }
+        </style>
+    </head>
+    <body>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="Accueil.html">
+                    <img src="image/MBAlogo.svg.png" alt="" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Match</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Le Club
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Actualite.html">Actualité</a></li>
+                        <li><a class="dropdown-item" href="histoire.html">Notre Histoire</a></li>
+                        <li><a class="dropdown-item" href="Salles.html">Nos Salle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Contact
+                        </button>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Nouveau message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                        <label for="destinataire" class="col-form-label">Destinataire :</label>
+                        <input type="text" class="form-control" id="destinataire">
+                        </div>
+                        <div class="mb-3">
+                        <label for="message" class="col-form-label">Message :</label>
+                        <textarea class="form-control" id="message"></textarea>
+                        </div>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary">Envoyer le message</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="image/Mitchell-Ness-Swingman-Collection-Lifestyle-1024x683.jpg" class="card-img-top" alt="Maillot">
+                        <div class="card-body">
+                        <h5 class="card-title">Retrouvez la boutique du MBA</h5>
+                        <p class="card-text">Retrouvez la boutique de club tenue par la MBA lors de nos matchs à domicile ! T-shirt supporter, sweat à capuche, tenue de match, il y en a pour tous les goûts!.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="image/westb.webp" class="card-img-top" alt="westb">
+                        <div class="card-body">
+                        <h5 class="card-title">Grizzlies - Clippers : du très grand Russell Westbrook !</h5>
+                        <p class="card-text">Privés de plusieurs titulaires, les Grizzlies ont fini par s’incliner à domicile face à des Clippers adroits de loin, à l’image du duo improbable, Westbrook – Covington, à 12/12 à 3-points en cumulé !</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="image/Lakersqualif.jpg" class="card-img-top" alt="lakersplayoff">
+                        <div class="card-body">
+                        <h5 class="card-title">Les Lakers ont une de ce qualifié pour les play-off</h5>
+                        <p class="card-text">Les Lakers ont signé une sacrée remontada pour tenter d’accéder directement aux Playoffs. Malgré un LeBron James au four et au moulin, ils devront passer par le play-in pour espérer disputer la postseason.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            
+    </body>
+</html>

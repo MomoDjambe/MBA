@@ -1,0 +1,15 @@
+.img {
+    height: 300px;
+    width: 100%;
+}
+
+.marg{
+    margin-top: 1.5em;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+.text-danger {
+    color: red;
+}
